@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-text-base: #ffffff;
+    --background-color-base: #020202;
+    --color-button-hover: #64b4ffd1;
+    --button-color-base: #0095ff;
+    --spaan-text-color: #f5adfd;
+  }
+}
+body{
+  background-color: #020202;
+  color: #ffffff;
+}
